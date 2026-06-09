@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-syne: "Syne", sans-serif;
+}
+
+@layer base{
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  body {
+    background-color: var(--color-base-shape-principal);
+    color: var(--color-base-text) ;
+    -webkit-font-smoothing: antialiased;
+
+    font-family: var(--font-montserrat);
+}
+}
+
+@layer components {
+  .MainContainer {
+    @apply max-w-[1120px] mx-auto w-full
+  }
+}
