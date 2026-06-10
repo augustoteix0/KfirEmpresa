@@ -1,3 +1,4 @@
+import { CallToActionSection } from "./page/CallToActionSection";
 import { ClienteGrandeSection } from "./page/ClienteGrande";
 import { CriteriosSections } from "./page/CriteriosSection";
 import { HeaderSeaction } from "./page/HeaderSeaction";
@@ -17,6 +18,7 @@ export function App() {
       <ServicoSection />
       <ClienteGrandeSection />
       <CriteriosSections />
+      <CallToActionSection />
     </div>
   )
 }

@@ -3,11 +3,11 @@ import LeaoBannerTese from "../assets/LeaoBannerTese.webp";
 
 export function TeseSection() {
   return (
-    <div className="p-4 py-32">
+    <div id="Sobre" className="p-4 py-32">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col gap-4">
           <motion.h2
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
@@ -16,10 +16,10 @@ export function TeseSection() {
             A NOSSA TESE.
           </motion.h2>
           <motion.p
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
+            transition={{ duration: 0.6, delay:0.2, ease: "easeOut" }}
             className="text-lg"
           >
             Marketing bonito só faz sentido se der lucro. rejeitamos as
@@ -30,7 +30,7 @@ export function TeseSection() {
           </motion.p>
         </div>
         <motion.div
-          initial={{ opacity: 0, x: 50 }}
+          initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, ease: "easeOut" }}

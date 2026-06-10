@@ -3,28 +3,28 @@ import { motion } from "framer-motion";
 
 export function CriteriosSections() {
   return (
-    <div className="flex flex-col gap-10 py-32 p-4">
+    <div className="flex flex-col gap-10 py-32 p-4 bg-black">
       <div>
         <motion.h2 
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="font-syne text-3xl md:text-4xl font-bold text-center">
+        className="font-syne text-3xl md:text-4xl font-bold text-center text-white">
           CRITÉRIOS DE SELEÇÃO.
         </motion.h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-6">
-        <div className="flex flex-col gap-4 rounded-2xl p-8 border border-zinc-200 shadow-xl">
+        <div className="flex flex-col gap-4 rounded-2xl p-8 border border-zinc-800 shadow-xl">
           <motion.h3 
           initial={{ opacity: 0, y: 0 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-          className="upercase text-center font-syne font-bold text-2xl">
+          className="upercase text-center font-syne font-bold text-2xl text-white">
             Quem buscamos
           </motion.h3>
-          <ul className="flex flex-col gap-2">
+          <ul className="flex flex-col gap-2 text-white">
             <motion.li 
             initial={{ opacity: 0, y: 0 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ export function CriteriosSections() {
       transition={{ duration: 0.8, delay:0.2, ease: "easeOut" }}
             className="flex items-start gap-2">
               <span className="flex-shrink-0 mt-0.5">
-                <CalendarCheckIcon size={25} color="green" />
+                <CalendarCheckIcon size={25} color="#22c55e" />
               </span>
               Empresas que buscam expansão de mercado
             </motion.li>
@@ -44,7 +44,7 @@ export function CriteriosSections() {
       transition={{ duration: 0.8, delay:0.3, ease: "easeOut" }}
             className="flex items-start gap-2">
               <span className="flex-shrink-0 mt-0.5">
-                <CalendarCheckIcon size={25} color="green" />
+                <CalendarCheckIcon size={25} color="#22c55e" />
               </span>
               Negócios que precisam de processo previsível de vendas
             </motion.li>
@@ -56,7 +56,7 @@ export function CriteriosSections() {
       transition={{ duration: 0.8, delay:0.4, ease: "easeOut" }}
             className="flex items-start gap-2">
               <span className="flex-shrink-0 mt-0.5">
-                <CalendarCheckIcon size={25} color="green" />
+                <CalendarCheckIcon size={25} color="#22c55e" />
               </span>
               Empresários com sangue no olho para escalar a operação
             </motion.li>
@@ -68,7 +68,7 @@ export function CriteriosSections() {
       transition={{ duration: 0.8, delay:0.5, ease: "easeOut" }}
             className="flex items-start gap-2">
               <span className="flex-shrink-0 mt-0.5">
-                <CalendarCheckIcon size={25} color="green" />
+                <CalendarCheckIcon size={25} color="#22c55e" />
               </span>
               Quem entende que marketing é o combustível para o crescimento
             </motion.li>

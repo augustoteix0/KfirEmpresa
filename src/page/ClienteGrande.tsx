@@ -8,7 +8,7 @@ export function ClienteGrandeSection() {
         
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <motion.div
-          initial={{ opacity: 0, x: -40 }}
+          initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -44,23 +44,28 @@ export function ClienteGrandeSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           
-          <motion.div 
-            initial={{ opacity: 0, x: -40 }}
+          <div className="md:col-span-5 flex flex-col gap-8"
+          >
+            <motion.div 
+            initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            className="md:col-span-5 flex flex-col gap-8"
-          >
-            <div>
+            transition={{ duration: 0.8, delay:0.2, ease: "easeOut" }}
+            >
               <h3 className="font-syne text-xl font-bold uppercase tracking-wider text-black mb-2">
                 O Desafio
               </h3>
               <p className="font-montserrat text-black text-base leading-relaxed">
                 Traduzir a grandiosidade e a energia da rede de Academias Gaviões para o ambiente digital, atraindo o público certo através de uma experiência audiovisual imersiva.
               </p>
-            </div>
+            </motion.div>
 
-            <div className="border-t border-zinc-900 pt-6">
+            <motion.div 
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay:0.4, ease: "easeOut" }}
+            className="border-t border-zinc-900 pt-6">
               <h3 className="font-syne text-xl font-bold uppercase tracking-wider text-black mb-4">
                 O que entregamos
               </h3>
@@ -78,11 +83,11 @@ export function ClienteGrandeSection() {
                   <span>Ecossistema digital de alta performance focado em conversão.</span>
                 </li>
               </ul>
-            </div>
-          </motion.div>
+            </motion.div>
+          </div>
 
           <motion.div 
-            initial={{ opacity: 0, x: 40 }}
+            initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut" }}
