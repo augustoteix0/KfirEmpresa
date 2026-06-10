@@ -92,15 +92,9 @@ export function ClienteGrandeSection() {
               <img 
                 src={Gavioesimg} 
                 alt="Produção Audiovisual Academia Gaviões" 
-                className="w-full h-auto object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:scale-102 transition-all duration-500"
+                className="w-full h-auto object-cover grayscale hover:grayscale-0 opacity-80 group-hover:opacity-100 group-hover:scale-102 transition-all duration-300"
               />
-              <div className="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/20 transition-colors duration-300">
-                <div className="w-16 h-16 rounded-full bg-white text-black flex items-center justify-center shadow-2xl transition-transform duration-300 group-hover:scale-110">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-6 h-6 ml-1">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                </div>
-              </div>
+              
             </div>
           </motion.div>
 
