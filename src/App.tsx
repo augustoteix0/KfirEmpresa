@@ -1,3 +1,4 @@
+import { ClienteGrandeSection } from "./page/ClienteGrande";
 import { HeaderSeaction } from "./page/HeaderSeaction";
 import { HeroSection } from "./page/HeroSection";
 import { PilaresSection } from "./page/PilaresSection";
@@ -13,6 +14,7 @@ export function App() {
       <TeseSection />
       <PilaresSection />
       <ServicoSection />
+      <ClienteGrandeSection />
     </div>
   )
 }
