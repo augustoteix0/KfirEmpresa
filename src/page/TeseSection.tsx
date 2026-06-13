@@ -3,7 +3,7 @@ import LeaoBannerTese from "../assets/LeaoBannerTese.webp";
 
 export function TeseSection() {
   return (
-    <div id="Sobre" className="p-4 py-32">
+    <div id="Sobre" className="MainContainer px-4 md:px-10 py-32">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col gap-4">
           <motion.h2

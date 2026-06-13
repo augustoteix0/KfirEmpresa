@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export function ServicoSection() {
   return (
-    <div className="p-4 py-32" id="Servicos">
+    <div className="MainContainer p-4 md:px-10 py-32" id="Servicos">
       <div>
         <motion.h2 
          initial={{ opacity: 0, y: 50 }}
@@ -16,7 +16,7 @@ export function ServicoSection() {
           OPERAÇÃO COMPLETA. DA ATRAÇÃO À <br /> ÚLTIMA LINHA DE LUCRO.
         </motion.h2>
       </div>
-      <div className="grid grid-cols-1">
+      <div className="grid grid-cols-1 gap-10 ">
         <div className="md:flex md:flex-row flex-col">
           <motion.div 
            initial={{ opacity: 0, x: -50 }}

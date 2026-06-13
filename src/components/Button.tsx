@@ -1,15 +1,19 @@
 import { motion } from "framer-motion";
 
-export function Button({ variantClass = "bg-black text-white" }) {
+export function Button({ 
+  texto = "Fazer um Orçamento", 
+  estilo = "bg-black text-white" 
+}) {
   return (
     <motion.a
+      href="#"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
-      transition={{ duration: 0.8, delay:0.6, ease: "easeOut" }}
-      className={`px-4 py-1 rounded-full mt-4 cursor-pointer inline-block tracking-widest font-medium font-syne ${variantClass}`}
+      transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+      className={`px-4 py-1 rounded-full mt-4 cursor-pointer inline-block tracking-widest font-medium font-syne uppercase ${estilo}`}
     >
-      Fazer um Orçamento
+      {texto}
     </motion.a>
   );
 }

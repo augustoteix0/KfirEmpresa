@@ -3,7 +3,7 @@ import  Gavioesimg  from '../assets/GavioesImg.webp'
 
 export function ClienteGrandeSection() {
     return (
-        <section className="py-32 bg-white text-black p-4 md:px-10 overflow-hidden ">
+        <section className="MainContainer py-32 bg-white text-black px-4 md:px-10 overflow-hidden ">
       <div>
         
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">

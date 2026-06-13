@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export function HeroSection() {
   return (
-    <div className="p-4">
+    <div className="MainContainer px-4 md:px-10">
       <div className="flex flex-col items-center justify-center h-[500px]">
         <motion.h1
           initial={{ opacity: 0, y: 30 }}

@@ -11,7 +11,7 @@ import { TeseSection } from "./page/TeseSection";
 export function App() {
 
   return (
-    <div className="MainContainer ">
+    <div className="w-full">
       <HeaderSeaction />
       <HeroSection/>
       <TeseSection />

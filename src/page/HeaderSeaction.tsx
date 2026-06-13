@@ -7,7 +7,7 @@ export function HeaderSeaction() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="p-4">
+    <div className="MainContainer p-4 md:px-10">
       <div className="pt-10 flex items-center justify-between">
         <div>
           <motion.img

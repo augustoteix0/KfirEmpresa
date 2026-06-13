@@ -8,44 +8,36 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "Como funciona o processo de desenvolvimento?",
-    answer: "Trabalhamos em etapas claras: imersão no seu negócio, direção audiovisual e posicionamento premium, seguido pela engenharia web focado em alta conversão. Você acompanha cada passo do projeto."
+    question: "Como funciona o processo de trabalho da agência?",
+    answer: "Nossa metodologia é dividida em etapas estratégicas: primeiro fazemos um mapeamento do seu negócio, depois desenvolvemos a sua estrutura de conversão (site) e, por fim, desenhamos a estratégia de tráfego, conteúdo e posicionamento para atrair clientes qualificados. Você acompanha todo o processo."
   },
   {
-    question: "Em quanto tempo meu ecossistema digital estará pronto?",
-    answer: "O prazo médio varia entre 15 a 30 dias úteis, dependendo da complexidade do projeto e da velocidade na aprovação do material audiovisual e estratégico."
+    question: "Em quanto tempo os primeiros resultados começam a aparecer?",
+    answer: "As estruturas e campanhas de tráfego pago costumam ir ao ar entre 15 a 30 dias úteis. Os resultados de atração através de mídia paga podem aparecer logo nos primeiros dias de anúncios ativos, enquanto o posicionamento de elite e conteúdo constroem autoridade sólida a médio prazo."
   },
   {
-    question: "O escopo inclui tráfego pago e produção de vídeos?",
-    answer: "Sim, desenhamos uma operação completa que vai desde a atração qualificada de clientes por mídia paga até a construção da autoridade corporativa com audiovisual premium."
+    question: "O que está incluso no escopo dos serviços de vocês?",
+    answer: "Trabalhamos com o ecossistema completo de crescimento digital: desenvolvimento de sites e landing pages de alta performance, gestão de tráfego pago integrada com Business Intelligence (BI) para análise de dados, além da estratégia de conteúdo e posicionamento de elite para a sua marca."
   },
   {
-    question: "Como funciona o suporte pós-entrega?",
-    answer: "Entregamos o projeto pronto e validado, e você conta com um período de suporte técnico garantido para tirar dúvidas, fazer pequenos ajustes e garantir estabilidade total na sua operação."
+    question: "Como funciona o suporte pós-entrega do meu site?",
+    answer: "Após a finalização e entrega da sua estrutura, você conta com um período de suporte técnico garantido para tirar dúvidas, realizar pequenos ajustes de estabilidade e garantir que toda a operação de vendas continue rodando sem nenhuma falha."
   },
   {
-    question: "Eu já tenho um site, por que deveria refazer com vocês?",
-    answer: "A maioria dos sites por aí são apenas cartões de visita bonitos que não vendem nada. Nós não criamos só um site: nós construímos um ecossistema focado em conversão automática, posicionamento de elite e atração de clientes com sangue no olho para comprar."
+    question: "Eu já tenho um site e faço anúncios, por que deveria contratar vocês?",
+    answer: "A maioria das agências entrega apenas um site bonitinho ou cliques vazios nos anúncios. Nós unimos engenharia de conversão, tráfego e inteligência de dados (BI) para garantir que sua empresa não tenha só visitas, mas sim um fluxo previsível de vendas e um posicionamento de elite no mercado."
   },
   {
-    question: "Eu preciso aparecer ou gravar os vídeos para o posicionamento?",
-    answer: "Não necessariamente. Nossa equipe desenha estratégias personalizadas para o seu modelo de negócio. Podemos focar em produções institucionais, transições cinematográficas e narrativas premium da sua empresa sem que você precise ser um blogueiro."
+    question: "Qual o valor do investimento para iniciar com a agência?",
+    answer: "Não trabalhamos com pacotes engessados, pois cada negócio exige um esforço diferente em tráfego, estrutura ou conteúdo. O investimento é calculado sob medida com base nos objetivos atuais e no tamanho do desafio da sua empresa, definido logo após a nossa reunião de diagnóstico."
   },
   {
-    question: "Vocês atendem qualquer nicho ou tipo de empresa?",
-    answer: "Não. Nós jogamos o jogo do high-ticket. Selecionamos a dedo os projetos através da nossa reunião de diagnóstico para garantir que trabalhamos apenas com empresas reais, validadas e que têm estrutura para suportar uma escala massiva de clientes."
+    question: "Os acessos, domínios e contas de anúncios ficam comigo?",
+    answer: "Cento por cento seus. Toda a propriedade intelectual do site, contas de anúncios no Facebook/Google, acessos a plataformas de dados e domínios são registrados diretamente no nome ou CNPJ da sua empresa. Você mantém o controle total e transparência absoluta sobre os seus ativos."
   },
   {
-    question: "Qual o valor do investimento para iniciar o projeto?",
-    answer: "Não trabalhamos com pacotes prontos ou receitas de bolo. O investimento é calculado com base no tamanho do seu desafio, escopo audiovisual e complexidade da engenharia web necessária. O valor exato é passado após a nossa análise estratégica."
-  },
-  {
-    question: "O domínio e a hospedagem ficam no meu nome?",
-    answer: "Cento por cento seu. Toda a propriedade intelectual, contas de anúncios, acessos ao ecossistema e domínios são registrados no nome da sua empresa. Você tem controle total e transparência absoluta de tudo."
-  },
-  {
-    question: "Como faço para dar o próximo passo e garantir minha vaga?",
-    answer: "Basta clicar em qualquer botão de CTA desta página e preencher o nosso formulário de aplicação. Se o seu perfil for aprovado, nossa equipe vai entrar em contato para agendar uma reunião estratégica de diagnóstico."
+    question: "Como faço para dar o próximo passo e contratar a agência?",
+    answer: "Basta clicar em qualquer botão de ação desta página e preencher o nosso formulário rápido de aplicação. Nossa equipe fará uma pré-análise dos seus dados e entrará em contato para agendar uma reunião de diagnóstico estratégico com você."
   }
 ];
 
@@ -57,7 +49,7 @@ export function FaqSection() {
   };
 
   return (
-    <section className="py-32 bg-white text-black p-4 md:px-10 overflow-hidden border-t border-zinc-100">
+    <section className="MainContainer py-32 bg-white text-black px-4 md:px-10 overflow-hidden border-t border-zinc-100">
       <div className="max-w-[1120px] mx-auto">
         
         
