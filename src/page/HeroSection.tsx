@@ -10,7 +10,7 @@ export function HeroSection() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-          className="font-syne font-bold text-lg md:text-4xl text-center leading-7 pb-2"
+          className="font-syne font-bold text-2xl md:text-4xl text-center leading-7 pb-2"
         >
           CONSTRUÍMOS O FUTURO DIGITAL DA SUA MARCA.
         </motion.h1>
