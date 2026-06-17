@@ -76,9 +76,10 @@ export function HeaderSeaction() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="absolute top-0 left-0 w-full bg-black/95 border-b border-zinc-900 flex flex-col items-center gap-6 py-8 text-xl text-white font-montserrat z-40 md:hidden shadow-2xl"
+            className="absolute top-30 left-0 w-full rounded-lg bg-white/90 border-b border-zinc-900 flex flex-col items-center gap-6 py-8 text-xl text-black font-montserrat z-40 md:hidden shadow-4xl"
           >
             <a href="#Home" onClick={() => setIsOpen(false)}>Home</a>
+            
             <a href="#Sobre" onClick={() => setIsOpen(false)}>Sobre</a>
             <a href="#Servicos" onClick={() => setIsOpen(false)}>Serviços</a>
             <a href="#Contato" onClick={() => setIsOpen(false)}>Contato</a>
