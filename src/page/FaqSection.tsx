@@ -20,6 +20,14 @@ const faqData: FAQItem[] = [
     answer: "Trabalhamos com o ecossistema completo de crescimento digital: desenvolvimento de sites e landing pages de alta performance, gestão de tráfego pago integrada com Business Intelligence (BI) para análise de dados, além da estratégia de conteúdo e posicionamento de elite para a sua marca."
   },
   {
+    question: "Como funciona a estratégia de audiovisual e conteúdo e por que ela é o foco?",
+    answer: "O tráfego pago atrai o público, mas é o seu posicionamento audiovisual que dita o preço que você pode cobrar. Nós desenhamos roteiros, narrativas e estéticas cinematográficas para a sua marca. Produções com cara de elite geram desejo instantâneo, fazendo com que o cliente compre pelo seu valor e profissionalismo, e não pelo menor preço."
+  },
+  {
+    question: "Eu preciso aparecer ou gravar vídeos para construir esse Posicionamento de Elite?",
+    answer: "Não necessariamente. Nós não transformamos empresários em blogueiros. Nossa equipe desenvolve estratégias sob medida para a sua realidade: se você não quiser aparecer, podemos focar em produções institucionais de alto padrão, transições cinematográficas dos seus bastidores, estrutura física e narrativas puramente corporativas."
+  },
+  {
     question: "Como funciona o suporte pós-entrega do meu site?",
     answer: "Após a finalização e entrega da sua estrutura, você conta com um período de suporte técnico garantido para tirar dúvidas, realizar pequenos ajustes de estabilidade e garantir que toda a operação de vendas continue rodando sem nenhuma falha."
   },
@@ -37,7 +45,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: "Como faço para dar o próximo passo e contratar a agência?",
-    answer: "Basta clicar em qualquer botão de ação desta página e preencher o nosso formulário rápido de aplicação. Nossa equipe fará uma pré-análise dos seus dados e entrará em contato para agendar uma reunião de diagnóstico estratégico com você."
+    answer: "Basta clicar em qualquer botão de ação desta página e iniciar uma conversa no nosso Whatsapp. Nossa equipe fará uma pré-análise dos seus dados e entrará em contato para agendar uma reunião de diagnóstico estratégico com você."
   }
 ];
 

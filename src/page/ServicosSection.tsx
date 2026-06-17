@@ -1,6 +1,7 @@
 import foguete from "../assets/foguete.webp";
 import cavalo from "../assets/cavalo.webp";
-import computer from "../assets/computer.webp"
+import computer1 from "../assets/computer1.png"
+
 import { motion } from "framer-motion";
 
 export function ServicoSection() {
@@ -81,7 +82,7 @@ export function ServicoSection() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, delay:0.5, ease: "easeOut" }}
           className="flex justify-center">
-            <img src={computer} alt="" className="w-[200px] md:w-[600px]" />
+            <img src={computer1} alt="" className="w-[200px] md:w-[600px]" />
           </motion.div>
           <motion.div 
           initial={{ opacity: 0, x: 50 }}
