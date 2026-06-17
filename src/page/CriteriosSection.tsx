@@ -1,5 +1,6 @@
 import { CalendarCheckIcon, XSquareIcon } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
+import { Button } from "../components/Button";
 
 export function CriteriosSections() {
   return (
@@ -7,64 +8,70 @@ export function CriteriosSections() {
       <div className="MainContainer flex flex-col gap-10 px-4 md:px-10">
         <div>
           <motion.h2
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="font-syne text-3xl md:text-4xl font-bold text-center text-white">
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="font-syne text-3xl md:text-4xl font-bold text-center text-white"
+          >
             CRITÉRIOS DE SELEÇÃO.
           </motion.h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-6">
           <div className="flex flex-col gap-4 rounded-2xl p-8 border border-zinc-800 shadow-xl">
             <motion.h3
-            initial={{ opacity: 0, y: 0 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-            className="upercase text-center font-syne font-bold text-2xl text-white">
+              initial={{ opacity: 0, y: 0 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="upercase text-center font-syne font-bold text-2xl text-white"
+            >
               Quem buscamos
             </motion.h3>
             <ul className="flex flex-col gap-2 text-white">
               <motion.li
-              initial={{ opacity: 0, y: 0 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.8, delay:0.2, ease: "easeOut" }}
-              className="flex items-start gap-2">
+                initial={{ opacity: 0, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+                className="flex items-start gap-2"
+              >
                 <span className="flex-shrink-0 mt-0.5">
                   <CalendarCheckIcon size={25} color="#22c55e" />
                 </span>
                 Empresas que buscam expansão de mercado
               </motion.li>
               <motion.li
-              initial={{ opacity: 0, y: 0 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.8, delay:0.3, ease: "easeOut" }}
-              className="flex items-start gap-2">
+                initial={{ opacity: 0, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
+                className="flex items-start gap-2"
+              >
                 <span className="flex-shrink-0 mt-0.5">
                   <CalendarCheckIcon size={25} color="#22c55e" />
                 </span>
                 Negócios que precisam de processo previsível de vendas
               </motion.li>
               <motion.li
-              initial={{ opacity: 0, y: 0 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.8, delay:0.4, ease: "easeOut" }}
-              className="flex items-start gap-2">
+                initial={{ opacity: 0, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+                className="flex items-start gap-2"
+              >
                 <span className="flex-shrink-0 mt-0.5">
                   <CalendarCheckIcon size={25} color="#22c55e" />
                 </span>
                 Empresários com sangue no olho para escalar a operação
               </motion.li>
               <motion.li
-              initial={{ opacity: 0, y: 0 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.8, delay:0.5, ease: "easeOut" }}
-              className="flex items-start gap-2">
+                initial={{ opacity: 0, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
+                className="flex items-start gap-2"
+              >
                 <span className="flex-shrink-0 mt-0.5">
                   <CalendarCheckIcon size={25} color="#22c55e" />
                 </span>
@@ -74,53 +81,58 @@ export function CriteriosSections() {
           </div>
           <div className="flex flex-col gap-4 bg-zinc-900 border border-zinc-800 text-zinc-300 rounded-2xl p-8">
             <motion.h3
-            initial={{ opacity: 0, y: 0 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-            className="upercase text-center font-syne font-bold text-2xl">
+              initial={{ opacity: 0, y: 0 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="upercase text-center font-syne font-bold text-2xl"
+            >
               Quem Rejeitamos
             </motion.h3>
             <ul className="flex flex-col gap-2">
               <motion.li
-              initial={{ opacity: 0, y: 0 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.8, delay:0.2, ease: "easeOut" }}
-              className="flex items-start gap-2">
+                initial={{ opacity: 0, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+                className="flex items-start gap-2"
+              >
                 <span className="flex-shrink-0 mt-0.5">
                   <XSquareIcon size={25} color="red" />
                 </span>
                 Amadores em busca de fórmulas mágicas
               </motion.li>
               <motion.li
-              initial={{ opacity: 0, y: 0 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.8, delay:0.3, ease: "easeOut" }}
-              className="flex items-start gap-2">
+                initial={{ opacity: 0, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
+                className="flex items-start gap-2"
+              >
                 <span className="flex-shrink-0 mt-0.5">
                   <XSquareIcon size={25} color="red" />
                 </span>
                 Quem está acomodado com o faturamento atual
               </motion.li>
               <motion.li
-              initial={{ opacity: 0, y: 0 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.8, delay:0.4, ease: "easeOut" }}
-              className="flex items-start gap-2">
+                initial={{ opacity: 0, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+                className="flex items-start gap-2"
+              >
                 <span className="flex-shrink-0 mt-0.5">
                   <XSquareIcon size={25} color="red" />
                 </span>
                 Empresas que enxergam marketing como um gasto adicional
               </motion.li>
               <motion.li
-              initial={{ opacity: 0, y: 0 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.8, delay:0.5, ease: "easeOut" }}
-              className="flex items-start gap-2">
+                initial={{ opacity: 0, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
+                className="flex items-start gap-2"
+              >
                 <span className="flex-shrink-0 mt-0.5">
                   <XSquareIcon size={25} color="red" />
                 </span>
@@ -129,6 +141,9 @@ export function CriteriosSections() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center mt-6">
+        <Button estilo="bg-white text-black"/>
       </div>
     </section>
   );

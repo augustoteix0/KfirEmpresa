@@ -6,7 +6,8 @@ export function Button({
 }) {
   return (
     <motion.a
-      href="#"
+      href="https://wa.me/5511985149353?text=Olá!%20Vim%20do%20site%20e%20gostaria%20de%20agendar%20uma%20reunião%20de%20diagnóstico%20estratégico." 
+      target="_blank"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
