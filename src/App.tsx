@@ -11,7 +11,7 @@ import { TeseSection } from "./page/TeseSection";
 export function App() {
 
   return (
-    <div className="w-full">
+    <div className="w-full overflow-hidden">
       <HeaderSeaction />
       <HeroSection/>
       <TeseSection />
