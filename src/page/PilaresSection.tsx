@@ -14,7 +14,7 @@ export function PilaresSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="uppercase text-4xl md:text-5xl font-bold font-syne text-center text-white mb-20 tracking-tight"
+            className="uppercase text-3xl md:text-4xl font-bold font-syne text-center text-white mb-20 tracking-tight"
           >
             Os Pilares de Crescimento
           </motion.h2>
@@ -27,12 +27,11 @@ export function PilaresSection() {
               className="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl md:scale-95 flex flex-col justify-between h-full min-h-[420px]"
             >
               <div>
-                <span className="text-xl font-syne font-bold text-white block mb-3 tracking-wider">
-                  MÍDIA PAGA
+                <span className="text-xl font-syne font-bold text-white block mb-3 tracking-wider uppercase">
+                  Performance
                 </span>
                 <p className="font-montserrat text-zinc-400 text-md leading-relaxed">
-                  Atração qualificada de clientes através de dados e compra de
-                  tráfego otimizada.
+                  Sua verba vai exatamente para onde seu cliente está
                 </p>
               </div>
               <div className="mt-6 overflow-hidden rounded-xl border border-zinc-800 bg-black">
@@ -75,12 +74,11 @@ export function PilaresSection() {
               className="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl md:scale-95 flex flex-col justify-between h-full min-h-[420px]"
             >
               <div>
-                <span className="text-xl font-syne font-bold text-white block mb-3 tracking-wider">
-                  ENGENHARIA WEB
+                <span className="text-xl font-syne font-bold text-white block mb-3 tracking-wider uppercase">
+                  Ecossistemas Digitais
                 </span>
                 <p className="font-montserrat text-zinc-400 text-md leading-relaxed">
-                  Ecossistemas digitais e ecossistemas de alta taxa de
-                  conversão.
+                  Desenvolvimento focado em conversão e experiência.
                 </p>
               </div>
               <div className="mt-6 overflow-hidden rounded-xl border border-zinc-800 bg-black">

@@ -10,7 +10,7 @@ export function HeroSection() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-          className="font-syne font-bold text-2xl md:text-4xl text-center leading-7 pb-2"
+          className="font-syne font-bold text-3xl md:text-4xl text-center leading-7 pb-2"
         >
           CONSTRUÍMOS O FUTURO DIGITAL DA SUA MARCA.
         </motion.h1>
@@ -19,9 +19,9 @@ export function HeroSection() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.8, delay:0.2, ease: "easeOut" }}
-        className="lowercase text-center leading-4 text-xs md:text-lg pt-2">
-          ESTRATÉGIA, TRÁFEGO PAGO E POSICIONAMENTO PARA EMPRESAS <br className="md:block hidden"/>
-          QUE BUSCAM LIDERANÇA DE MERCADO.
+        className="text-center leading-4 text-xs md:text-lg pt-2">
+          Marketing com verdade, estratégia com substância <br /> e entrega
+          com honra
         </motion.p>
         <Button />
       </div>

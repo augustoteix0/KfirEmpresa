@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import LeaoBannerTese from "../assets/LeaoBannerTese.webp";
+import Banner from "../assets/Banner.webp";
 
 export function TeseSection() {
   return (
@@ -11,7 +11,7 @@ export function TeseSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="font-syne font-bold text-4xl md:text-5xl tracking-tight"
+            className="font-syne font-bold text-3xl md:text-4xl tracking-tight"
           >
             A NOSSA TESE.
           </motion.h2>
@@ -19,14 +19,16 @@ export function TeseSection() {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, delay:0.2, ease: "easeOut" }}
+            transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
             className="text-lg"
           >
-            Marketing bonito só faz sentido se der lucro. rejeitamos as
-            estratégias genéricas e o conteúdo sem propósito.fundamentamos nossa
-            operação em dados reais, modelagem de negócios e design de alta
-            conversão. não somos apenas um fornecedor. somos o seu braço de
-            crescimento.
+            Rejeitamos as métricas vazias e o conteúdo sem substância. O que
+            entregamos é estratégia com rigor, conteúdo com propósito e uma
+            relação onde servir não é fraqueza. A Kfir não é uma fornecedora de
+            serviços. É uma parceira de crescimento que acredita que marcas
+            fortes não são construídas com barulho. São construídas com pesquisa
+            profunda, consistência e um propósito que vai além do próximo mês de
+            faturamento.
           </motion.p>
         </div>
         <motion.div
@@ -36,7 +38,7 @@ export function TeseSection() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="flex items-center justify-center"
         >
-          <img src={LeaoBannerTese} className="w-full" alt="" />
+          <img src={Banner} className="w-full rounded-lg" alt="" />
         </motion.div>
       </div>
     </div>

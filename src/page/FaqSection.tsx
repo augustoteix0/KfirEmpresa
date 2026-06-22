@@ -8,44 +8,36 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "Como funciona o processo de trabalho da agência?",
-    answer: "Nossa metodologia é dividida em etapas estratégicas: primeiro fazemos um mapeamento do seu negócio, depois desenvolvemos a sua estrutura de conversão (site) e, por fim, desenhamos a estratégia de tráfego, conteúdo e posicionamento para atrair clientes qualificados. Você acompanha todo o processo."
+    question: "Como funciona o processo de trabalho da KFIR?",
+    answer: "Tudo começa com um diagnóstico estratégico do seu negócio. A partir daí, construímos uma operação personalizada que pode envolver conteúdo, posicionamento, anúncios, site e ecossistemas digitais, ou estruturação operacional com automações — conforme o que sua empresa realmente precisa. Você acompanha cada etapa com transparência total."
   },
   {
-    question: "Em quanto tempo os primeiros resultados começam a aparecer?",
-    answer: "As estruturas e campanhas de tráfego pago costumam ir ao ar entre 15 a 30 dias úteis. Os resultados de atração através de mídia paga podem aparecer logo nos primeiros dias de anúncios ativos, enquanto o posicionamento de elite e conteúdo constroem autoridade sólida a médio prazo."
+    question: "Em quanto tempo os primeiros resultados aparecem?",
+    answer: "Depende do serviço — e ser honesto sobre isso é parte do nosso compromisso. Anúncios geram dados desde os primeiros dias. Conteúdo e posicionamento constroem autoridade entre 1 e 3 meses. Automações e estrutura operacional têm impacto imediato na produtividade da equipe. Sites são entregues entre 30 e 45 dias."
   },
   {
-    question: "O que está incluso no escopo dos serviços de vocês?",
-    answer: "Trabalhamos com o ecossistema completo de crescimento digital: desenvolvimento de sites e landing pages de alta performance, gestão de tráfego pago integrada com Business Intelligence (BI) para análise de dados, além da estratégia de conteúdo e posicionamento de elite para a sua marca."
+    question: "Preciso aparecer em vídeos para construir posicionamento de marca?",
+    answer: "Não necessariamente. Se preferir não aparecer, desenvolvemos produções institucionais de alto padrão — bastidores da operação, narrativas corporativas e conteúdo educativo da sua área. Se quiser aparecer, construímos uma presença que comunica autoridade. Em ambos os casos, o objetivo é o mesmo: sua marca é lembrada pelo valor que entrega, não pelo preço que cobra."
   },
   {
-    question: "Como funciona a estratégia de audiovisual e conteúdo e por que ela é o foco?",
-    answer: "O tráfego pago atrai o público, mas é o seu posicionamento audiovisual que dita o preço que você pode cobrar. Nós desenhamos roteiros, narrativas e estéticas cinematográficas para a sua marca. Produções com cara de elite geram desejo instantâneo, fazendo com que o cliente compre pelo seu valor e profissionalismo, e não pelo menor preço."
+    question: "Como funciona o serviço de Inteligência Artificial e Automações?",
+    answer: "Mapeamos como sua empresa funciona por dentro e implantamos um ecossistema de ferramentas integradas — CRM, Automações com N8N, integrações via API e agentes de IA — para que sua operação trabalhe de forma inteligente e previsível. O resultado é sua equipe foca no que gera valor, e as tarefas repetitivas acontecem de forma automática."
   },
   {
-    question: "Eu preciso aparecer ou gravar vídeos para construir esse Posicionamento de Elite?",
-    answer: "Não necessariamente. Nós não transformamos empresários em blogueiros. Nossa equipe desenvolve estratégias sob medida para a sua realidade: se você não quiser aparecer, podemos focar em produções institucionais de alto padrão, transições cinematográficas dos seus bastidores, estrutura física e narrativas puramente corporativas."
+    question: "Os acessos, ferramentas e contas ficam comigo ao final do contrato?",
+    answer: "Sim. Tudo é seu. Contas de anúncios, domínio, site, ferramentas de gestão, automações e qualquer ativo digital desenvolvido pela Kfir — tudo registrado no nome ou CNPJ da sua empresa. Transparência não é um diferencial para nós. É uma obrigação."
   },
   {
-    question: "Como funciona o suporte pós-entrega do meu site?",
-    answer: "Após a finalização e entrega da sua estrutura, você conta com um período de suporte técnico garantido para tirar dúvidas, realizar pequenos ajustes de estabilidade e garantir que toda a operação de vendas continue rodando sem nenhuma falha."
+    question: "A KFIR trabalha com contratos? Como funciona o compromisso?",
+    answer: "Sim, trabalhamos com contrato — e isso protege os dois lados. Oferecemos projetos pontuais para entregas específicas e planos mensais para serviços contínuos. O modelo ideal é definido na reunião de diagnóstico, após entendermos seus objetivos. Não existe pacote engessado — existe a solução certa para cada empresa."
   },
   {
-    question: "Eu já tenho um site e faço anúncios, por que deveria contratar vocês?",
-    answer: "A maioria das agências entrega apenas um site bonitinho ou cliques vazios nos anúncios. Nós unimos engenharia de conversão, tráfego e inteligência de dados (BI) para garantir que sua empresa não tenha só visitas, mas sim um fluxo previsível de vendas e um posicionamento de elite no mercado."
+    question: "Como a KFIR acompanha e reporta os resultados do meu negócio?",
+    answer: "Você nunca fica no escuro. Cada serviço tem seus indicadores acompanhados de perto — e compartilhamos relatórios claros e diretos, sem encher de números que não significam nada. Nosso compromisso é com resultado real, não com relatório bonito. Qualquer dúvida ou ajuste necessário, nossa equipe está acessível e age rápido."
   },
   {
-    question: "Qual o valor do investimento para iniciar com a agência?",
-    answer: "Não trabalhamos com pacotes engessados, pois cada negócio exige um esforço diferente em tráfego, estrutura ou conteúdo. O investimento é calculado sob medida com base nos objetivos atuais e no tamanho do desafio da sua empresa, definido logo após a nossa reunião de diagnóstico."
-  },
-  {
-    question: "Os acessos, domínios e contas de anúncios ficam comigo?",
-    answer: "Cento por cento seus. Toda a propriedade intelectual do site, contas de anúncios no Facebook/Google, acessos a plataformas de dados e domínios são registrados diretamente no nome ou CNPJ da sua empresa. Você mantém o controle total e transparência absoluta sobre os seus ativos."
-  },
-  {
-    question: "Como faço para dar o próximo passo e contratar a agência?",
-    answer: "Basta clicar em qualquer botão de ação desta página e iniciar uma conversa no nosso Whatsapp. Nossa equipe fará uma pré-análise dos seus dados e entrará em contato para agendar uma reunião de diagnóstico estratégico com você."
+    question: "Como dou o próximo passo para trabalhar com a KFIR?",
+    answer: "Simples: clique em qualquer botão desta página e inicie uma conversa no nosso WhatsApp. Nossa equipe fará uma pré-análise do seu negócio e agendará a reunião de diagnóstico estratégico. Se identificarmos que a KFIR é a parceira adequada para o seu momento, seguimos juntos. Se não for, te dizemos isso com honestidade."
   }
 ];
 
@@ -71,7 +63,7 @@ export function FaqSection() {
             <span className="text-md md:text-xl font-normal font-syne text-center tracking-tight pb-10">
               Dúvidas Frequentes
             </span>
-            <h2 className="text-3xl md:text-4xl font-extrabold font-syne uppercase tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-bold font-syne uppercase tracking-tight">
               Perguntas <br /> Respondidas.
             </h2>
           </motion.div>

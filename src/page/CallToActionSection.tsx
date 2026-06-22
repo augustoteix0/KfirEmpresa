@@ -11,7 +11,7 @@ export function CallToActionSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-white font-syne text-3xl md:text-4xl font-bold text-center"
+            className="text-white text-3xl md:text-4xl font-bold font-syne text-center"
           >
             O PRÓXIMO CICLO DE CRESCIMENTO DO SEU NEGÓCIO COMEÇA AGORA.
           </motion.h2>
@@ -30,17 +30,16 @@ export function CallToActionSection() {
             <Button texto="Fazer um Orçamento" estilo="bg-white text-black" />
           </div>
         </div>
-        <div className="h-[200px]">
+        <div className="h-[120px]">
           <div className="flex justify-center">
             <hr className="text-zinc-900 mt-10 w-[40rem]" />
           </div>
           <div className="text-white flex h-full flex-col md:flex-row justify-center md:justify-between text-center gap-6">
             <div className="flex flex-col justify-end ">
-              <span>contato@suaagencia.com</span>
-              <span>segunda a sexta — 09h às 18h</span>
+              <span>© 2026 KFIR Marketing. Todos os direitos reservados.</span>
             </div>
             <div className="flex items-end">
-              <span>© 2026 sua agência. todos os direitos reservados.</span>
+              <span className="italic">- Servir Sempre.</span>
             </div>
           </div>
         </div>

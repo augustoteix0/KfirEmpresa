@@ -39,7 +39,8 @@ export function CriteriosSections() {
                 <span className="flex-shrink-0 mt-0.5">
                   <CalendarCheckIcon size={25} color="#22c55e" />
                 </span>
-                Empresas que buscam expansão de mercado
+                Empresas que enxergam o marketing como investimento, não como
+gasto
               </motion.li>
               <motion.li
                 initial={{ opacity: 0, y: 0 }}
@@ -51,7 +52,8 @@ export function CriteriosSections() {
                 <span className="flex-shrink-0 mt-0.5">
                   <CalendarCheckIcon size={25} color="#22c55e" />
                 </span>
-                Negócios que precisam de processo previsível de vendas
+                Líderes comprometidos com crescimento sustentável e de longo
+prazo
               </motion.li>
               <motion.li
                 initial={{ opacity: 0, y: 0 }}
@@ -63,7 +65,8 @@ export function CriteriosSections() {
                 <span className="flex-shrink-0 mt-0.5">
                   <CalendarCheckIcon size={25} color="#22c55e" />
                 </span>
-                Empresários com sangue no olho para escalar a operação
+                Negócios prontos para receber mais clientes e escalar com
+estrutura
               </motion.li>
               <motion.li
                 initial={{ opacity: 0, y: 0 }}
@@ -75,7 +78,8 @@ export function CriteriosSections() {
                 <span className="flex-shrink-0 mt-0.5">
                   <CalendarCheckIcon size={25} color="#22c55e" />
                 </span>
-                Quem entende que marketing é o combustível para o crescimento
+                Quem valoriza verdade, método e processo acima de promessas
+rápidas
               </motion.li>
             </ul>
           </div>
@@ -100,7 +104,8 @@ export function CriteriosSections() {
                 <span className="flex-shrink-0 mt-0.5">
                   <XSquareIcon size={25} color="red" />
                 </span>
-                Amadores em busca de fórmulas mágicas
+                Quem busca resultado imediato sem comprometimento com o
+processo
               </motion.li>
               <motion.li
                 initial={{ opacity: 0, y: 0 }}
@@ -112,7 +117,8 @@ export function CriteriosSections() {
                 <span className="flex-shrink-0 mt-0.5">
                   <XSquareIcon size={25} color="red" />
                 </span>
-                Quem está acomodado com o faturamento atual
+                Empresas que não estão dispostas a mudar processos internos
+para crescer
               </motion.li>
               <motion.li
                 initial={{ opacity: 0, y: 0 }}
@@ -124,7 +130,8 @@ export function CriteriosSections() {
                 <span className="flex-shrink-0 mt-0.5">
                   <XSquareIcon size={25} color="red" />
                 </span>
-                Empresas que enxergam marketing como um gasto adicional
+                Quem está acomodado com o faturamento atual e não quer crescer
+de verdade
               </motion.li>
               <motion.li
                 initial={{ opacity: 0, y: 0 }}
@@ -136,7 +143,7 @@ export function CriteriosSections() {
                 <span className="flex-shrink-0 mt-0.5">
                   <XSquareIcon size={25} color="red" />
                 </span>
-                Negócios que não suportam receber mais clientes
+                Negócios que esperam fórmulas mágicas no lugar de estratégia real
               </motion.li>
             </ul>
           </div>
