@@ -9,16 +9,16 @@ export function ClienteGrandeSection() {
   const casesData = [
     {
       id: "01",
-      cliente: <>Academia <br /> Gaviões</>,
+      cliente: <>DX2GO</>,
       ano: "2026",
-      posicionamento: "Premium",
-      parceria: "D2xgo",
-      tipoParceria: "Terceirização",
-      desafio: "Desenvolvido através de uma parceria estratégica de terceirização para a agência D2xgo (especialista no nicho de academias). O desafio foi traduzir a grandiosidade e a energia da rede Gaviões para o ambiente digital, unindo a estratégia de marketing deles com a nossa engenharia de alta performance.",
+      segmento: "Fitness e Academias",
+      entrega: "Conteúdo Audiovisual",
+      tipoParceria: "Entrega",
+      desafio: "A D2xgo (especialista no nicho de academias) precisava de um parceiro que entendesse a energia única de cada unidade da rede Academia Gaviões e transformasse isso em conteúdo consistente para múltiplos perfis no Instagram. O desafio não era só gravar e editar — era captar a identidade de cada espaço, sustentar um ritmo de publicação constante e garantir que o padrão de qualidade se mantivesse o mesmo, independentemente da unidade ou do dia de gravação.",
       entregas: [
-        "Direção audiovisual e captação de vídeos em alta resolução.",
-        "Estratégia de posicionamento de marca premium nas redes sociais.",
-        "Ecossistema digital de alta performance focado em conversão."
+        "Captação audiovisual em vídeo — visitas recorrentes às unidades da rede para registrar a energia real do ambiente: treinos, estrutura, equipe e momentos que comunicam a experiência de quem treina ali.",
+        "Edição com identidade visual consistente — cada vídeo entregue seguindo um padrão de cor, ritmo e narrativa que reforça o reconhecimento da marca a cada novo conteúdo publicado.",
+        "Gestão de múltiplas unidades simultaneamente — operação estruturada para atender diferentes academias da rede sem perder qualidade ou prazo de entrega."
       ],
       imagem: Gavioesimg,
       metricas: [
@@ -31,14 +31,14 @@ export function ClienteGrandeSection() {
       id: "02",
       cliente: <>Cifarelli <br /> Seguros</>,
       ano: "2026",
-      posicionamento: "Elite",
-      parceria: "Direto",
-      tipoParceria: "Contrato Exclusivo",
-      desafio: "Consolidar a autoridade digital da marca no mercado de alto padrão, desenhando uma estrutura de conversão impecável e eliminando a guerra por preços.",
+      segmento: "Corretora de Seguros",
+      entrega: "Conteúdo e Posicionamento",
+      tipoParceria: "Entrega",
+      desafio: "O mercado de seguros carrega uma imagem burocrática e distante na cabeça do consumidor. A Cifarelli precisava de uma presença no Instagram que quebrasse essa barreira sem perder a credibilidade que o setor exige — comunicando confiança e proximidade ao mesmo tempo, para um público que normalmente só pensa em seguro quando já é tarde demais.",
       entregas: [
-        "Roteirização e direção audiovisual para serviços High-Ticket.",
-        "Landing Page de altíssima conversão com design minimalista.",
-        "Estratégia de captação de leads qualificados via mídia paga."
+        "Estratégia editorial sob medida — definição de pilares de conteúdo que equilibram educação sobre seguros, prova social e humanização da marca, sem soar institucional demais.",
+        "Roteiros pensados para o público certo — linguagem acessível que traduz termos técnicos do setor em conteúdo fácil de entender e compartilhar.",
+        "Construção de posicionamento digital — consistência visual e de mensagem que aproxima a marca do cliente final, sem abrir mão da seriedade que o setor de seguros exige."
       ],
       imagem: seguros,
       metricas: [
@@ -124,12 +124,12 @@ export function ClienteGrandeSection() {
                   <span className="font-syne font-bold text-zinc-800">{currentCase.ano}</span>
                 </div>
                 <div>
-                  <span className="text-zinc-400 font-montserrat text-sm  block">Posicionamento</span>
-                  <span className="font-syne font-bold text-zinc-800">{currentCase.posicionamento}</span>
+                  <span className="text-zinc-400 font-montserrat text-sm  block">Segmento</span>
+                  <span className="font-syne font-bold text-zinc-800">{currentCase.segmento}</span>
                 </div>
                 <div>
                   <span className="text-zinc-400 font-montserrat text-sm  block">{currentCase.tipoParceria}</span>
-                  <span className="font-syne font-bold text-zinc-800">{currentCase.parceria}</span>
+                  <span className="font-syne font-bold text-zinc-800">{currentCase.entrega}</span>
                 </div>
               </div>
 
