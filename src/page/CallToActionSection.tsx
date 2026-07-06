@@ -1,10 +1,13 @@
 import { Button } from "../components/Button";
 import { motion } from "framer-motion";
+import prc1 from "../assets/prc1.webp"
 
 export function CallToActionSection() {
   return (
     <section className="bg-black py-32 w-full">
-      <div className="MainContainer  px-4" id="Contato">
+      <div className="MainContainer   px-4" id="Contato">
+        
+       
         <div className="text-white flex flex-col gap-6">
           <motion.h2
             initial={{ opacity: 0, y: 30 }}
@@ -30,6 +33,30 @@ export function CallToActionSection() {
             <Button texto="Fazer um Orçamento" estilo="bg-white text-black" />
           </div>
         </div>
+
+        
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, delay: 0.4 }}
+          className="flex flex-col items-center gap-2 mt-16 -mb-4 text-center"
+        >
+          <span className="text-zinc-600 text-[10px] font-bold tracking-[0.35em] uppercase font-sans">
+            Parceiros
+          </span>
+          <div className="opacity-20 grayscale hover:opacity-40 transition-all duration-300">
+            <a href="https://www.kommo.com/br/" target="_blank">
+              <img 
+              src={prc1}
+              alt="Logo do Parceiro" 
+              className="h-8 md:h-8 w-auto object-contain"
+            />
+            </a>
+            
+          </div>
+        </motion.div>
+        
         <div className="h-[120px]">
           <div className="flex justify-center">
             <hr className="text-zinc-900 mt-10 w-[40rem]" />
@@ -43,6 +70,7 @@ export function CallToActionSection() {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );

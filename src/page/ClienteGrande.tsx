@@ -1,7 +1,10 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Gavioesimg from '../assets/GavioesImg.webp';
-import seguros from '../assets/seguros.webp';
+import cifarelli from '../assets/CIFARELLI.webp';
+import d2xgo from '../assets/D2XGO.webp';
+import kommo from '../assets/KOMMO.webp';
+import acreditar from '../assets/ACREDITAR.webp';
+
 
 export function ClienteGrandeSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -9,18 +12,18 @@ export function ClienteGrandeSection() {
   const casesData = [
     {
       id: "01",
-      cliente: <>DX2GO</>,
-      ano: "2026",
-      segmento: "Fitness e Academias",
-      entrega: "Conteúdo Audiovisual",
+      cliente: <>KOMMO</>,
+      ano: "Parceiro Oficial Certificado",
+      segmento: "CRM Conversacional",
+      entrega: "Interno + Clientes",
       tipoParceria: "Entrega",
-      desafio: "A D2xgo (especialista no nicho de academias) precisava de um parceiro que entendesse a energia única de cada unidade da rede Academia Gaviões e transformasse isso em conteúdo consistente para múltiplos perfis no Instagram. O desafio não era só gravar e editar — era captar a identidade de cada espaço, sustentar um ritmo de publicação constante e garantir que o padrão de qualidade se mantivesse o mesmo, independentemente da unidade ou do dia de gravação.",
+      desafio: "A KFIR é Parceiro Oficial Certificado do Kommo, o CRM conversacional número 1 do mundo, presente em mais de 100 países. Isso significa que implementamos, configuramos e treinamos empresas na ferramenta que nós mesmos usamos para gerir nossos próprios clientes e processos. Entregamos uma configuração completa do CRM, pipelines, automações e integração com WhatsApp e Instagram. Além de treinamento da equipe e acompanhamento pós-implantação pela KFIR.",
       entregas: [
         "Captação audiovisual em vídeo — visitas recorrentes às unidades da rede para registrar a energia real do ambiente: treinos, estrutura, equipe e momentos que comunicam a experiência de quem treina ali.",
         "Edição com identidade visual consistente — cada vídeo entregue seguindo um padrão de cor, ritmo e narrativa que reforça o reconhecimento da marca a cada novo conteúdo publicado.",
         "Gestão de múltiplas unidades simultaneamente — operação estruturada para atender diferentes academias da rede sem perder qualidade ou prazo de entrega."
       ],
-      imagem: Gavioesimg,
+      imagem: kommo,
       metricas: [
         { valor: "+140%", legenda: "Novos Alunos" },
         { valor: "2.4x", legenda: "Mais Cliques" },
@@ -29,6 +32,30 @@ export function ClienteGrandeSection() {
     },
     {
       id: "02",
+      cliente: <>DX2GO</>,
+      ano: "2026",
+      segmento: "Fitness e Academias",
+      entrega: "Conteúdo Audiovisual",
+      tipoParceria: "Entrega",
+      desafio: (
+  <>
+    A D2xgo (especialista no nicho de academias) precisava de um parceiro que entendesse a energia única de cada unidade da rede <span className="font-bold ">Academia Gaviões</span> e transformasse isso em conteúdo consistente para múltiplos perfis no Instagram. O desafio não era só gravar e editar — era captar a identidade de cada espaço, sustentar um ritmo de publicação constante e garantir que o padrão de qualidade se mantivesse o mesmo, independentemente da unidade ou do dia de gravação.
+  </>
+),
+      entregas: [
+        "Captação audiovisual em vídeo — visitas recorrentes às unidades da rede para registrar a energia real do ambiente: treinos, estrutura, equipe e momentos que comunicam a experiência de quem treina ali.",
+        "Edição com identidade visual consistente — cada vídeo entregue seguindo um padrão de cor, ritmo e narrativa que reforça o reconhecimento da marca a cada novo conteúdo publicado.",
+        "Gestão de múltiplas unidades simultaneamente — operação estruturada para atender diferentes academias da rede sem perder qualidade ou prazo de entrega."
+      ],
+      imagem: d2xgo,
+      metricas: [
+        { valor: "+140%", legenda: "Novos Alunos" },
+        { valor: "2.4x", legenda: "Mais Cliques" },
+        { valor: "100%", legenda: "Otimizado" }
+      ]
+    },
+    {
+      id: "03",
       cliente: <>Cifarelli <br /> Seguros</>,
       ano: "2026",
       segmento: "Corretora de Seguros",
@@ -40,24 +67,44 @@ export function ClienteGrandeSection() {
         "Roteiros pensados para o público certo — linguagem acessível que traduz termos técnicos do setor em conteúdo fácil de entender e compartilhar.",
         "Construção de posicionamento digital — consistência visual e de mensagem que aproxima a marca do cliente final, sem abrir mão da seriedade que o setor de seguros exige."
       ],
-      imagem: seguros,
+      imagem: cifarelli,
       metricas: [
         { valor: "+85k", legenda: "Em Contratos" },
         { valor: "Zero", legenda: "Leads Vazios" },
         { valor: "Elite", legenda: "Posicionamento" }
       ]
-    }
+    },
+    {
+      id: "04",
+      cliente: <>PROJETO ACREDITAR</>,
+      ano: "2026",
+      segmento: "Projeto Social",
+      entrega: "Conteúdo, Estrutura e Redes",
+      tipoParceria: "Entrega",
+      desafio: "O Projeto Acreditar já transformava vidas — mais de 2.500 crianças e jovens em situação de vulnerabilidade econômica alcançados por aulas de música, dança, futebol e muito mais. Mas uma causa poderosa precisa de uma voz igualmente poderosa para chegar onde pode chegar. O desafio era traduzir em conteúdo digital a força humana do que acontecia dentro do projeto, sem perder a autenticidade e a emoção que fazem uma causa mobilizar pessoas. Entregamos captação e edição de vídeos que registram histórias reais das crianças, professores e voluntários, transformando momentos do projeto em conteúdo que emociona e engaja.",
+      entregas: [
+        "Captação audiovisual em vídeo — visitas recorrentes às unidades da rede para registrar a energia real do ambiente: treinos, estrutura, equipe e momentos que comunicam a experiência de quem treina ali.",
+        "Edição com identidade visual consistente — cada vídeo entregue seguindo um padrão de cor, ritmo e narrativa que reforça o reconhecimento da marca a cada novo conteúdo publicado.",
+        "Gestão de múltiplas unidades simultaneamente — operação estruturada para atender diferentes academias da rede sem perder qualidade ou prazo de entrega."
+      ],
+      imagem: acreditar,
+      metricas: [
+        { valor: "+140%", legenda: "Novos Alunos" },
+        { valor: "2.4x", legenda: "Mais Cliques" },
+        { valor: "100%", legenda: "Otimizado" }
+      ]
+    },
   ];
 
   const currentCase = casesData[currentIndex];
 
   const handleNext = () => {
-    setCurrentIndex((prev) => (prev === 0 ? 1 : 0));
-  };
+  setCurrentIndex((prev) => (prev === casesData.length - 1 ? 0 : prev + 1));
+};
 
-  const handlePrev = () => {
-    setCurrentIndex((prev) => (prev === 1 ? 0 : 1));
-  };
+const handlePrev = () => {
+  setCurrentIndex((prev) => (prev === 0 ? casesData.length - 1 : prev - 1));
+};
 
   return (
     <section className="MainContainer py-16 md:py-32 bg-white text-black px-4 md:px-10">
@@ -81,7 +128,7 @@ export function ClienteGrandeSection() {
               ←
             </button>
             <span className="font-syne text-xs font-bold text-zinc-400 min-w-[40px] text-center">
-              {currentCase.id} / 02
+              {currentCase.id} / 04
             </span>
             <button 
               onClick={handleNext} 
@@ -120,29 +167,29 @@ export function ClienteGrandeSection() {
             >
               <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm border-b border-zinc-100 pb-4">
                 <div>
-                  <span className="text-zinc-400 font-montserrat text-sm block">Ano</span>
+                  <span className="text-zinc-400 font-montserrat text-sm block">{currentCase.id === "01" ? "Status" : "Ano"}</span>
                   <span className="font-syne font-bold text-zinc-800">{currentCase.ano}</span>
                 </div>
                 <div>
-                  <span className="text-zinc-400 font-montserrat text-sm  block">Segmento</span>
+                  <span className="text-zinc-400 font-montserrat text-sm  block">{currentCase.id === "01" ? "Ferramenta" : "Segmento"}</span>
                   <span className="font-syne font-bold text-zinc-800">{currentCase.segmento}</span>
                 </div>
                 <div>
-                  <span className="text-zinc-400 font-montserrat text-sm  block">{currentCase.tipoParceria}</span>
+                  <span className="text-zinc-400 font-montserrat text-sm  block">{currentCase.id === "01" ? "Uso" : "Entrega"}</span>
                   <span className="font-syne font-bold text-zinc-800">{currentCase.entrega}</span>
                 </div>
               </div>
 
               <div>
                 <h3 className="font-syne text-lg md:text-xl font-bold uppercase tracking-wider text-black mb-2">
-                  O Desafio
+                  {currentCase.id === "01" ? "O Significado" : "O Desafio"}
                 </h3>
                 <p className="font-montserrat text-black text-sm md:text-base leading-relaxed">
                   {currentCase.desafio}
                 </p>
               </div>
 
-              <div>
+              {/* <div>
                 <h3 className="font-syne text-lg md:text-xl font-bold uppercase tracking-wider text-black mb-3">
                   O que entregamos
                 </h3>
@@ -154,7 +201,7 @@ export function ClienteGrandeSection() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
 
               {/* <div className="border-t border-zinc-100 pt-5 grid grid-cols-3 gap-2 mt-2">
                 {currentCase.metricas.map((metrica, idx) => (
