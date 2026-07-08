@@ -107,7 +107,7 @@ const handlePrev = () => {
 };
 
   return (
-    <section className="MainContainer py-16 md:py-32 bg-white text-black px-4 md:px-10">
+    <section className="MainContainer py-12 md:py-12 bg-white text-black px-4 md:px-10">
       <div className="max-w-7xl mx-auto">
         
         <div className="flex items-center justify-between border-b border-zinc-100 pb-6 mb-8 md:mb-12">

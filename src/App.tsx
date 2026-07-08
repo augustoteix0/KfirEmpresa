@@ -4,6 +4,7 @@ import { CriteriosSections } from "./page/CriteriosSection";
 import { FaqSection } from "./page/FaqSection";
 import { HeaderSeaction } from "./page/HeaderSeaction";
 import { HeroSection } from "./page/HeroSection";
+import { LogoCarousel } from "./page/LogoMarcas";
 import { PilaresSection } from "./page/PilaresSection";
 import { ServicoSection } from "./page/ServicosSection";
 import { TeseSection } from "./page/TeseSection";
@@ -14,6 +15,7 @@ export function App() {
     <div className="w-full overflow-hidden">
       <HeaderSeaction />
       <HeroSection/>
+      <LogoCarousel/>
       <TeseSection />
       <PilaresSection />
       <ServicoSection />
