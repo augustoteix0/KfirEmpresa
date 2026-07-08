@@ -140,7 +140,7 @@ export function ServicoSection() {
               A KFIR organiza o funcionamento interno da sua empresa com as
               ferramentas certas. Integrando um CRM, automações com N8N,
               integrações de API e agentes de Inteligência Artificial — tudo
-              conectado para que seu time gaste energia no que importa, não em
+              conectado para que você gaste seu tempo com o que importa, não em
               tarefas repetitivas.
             </p>
           </motion.div>

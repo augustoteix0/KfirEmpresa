@@ -31,7 +31,7 @@ export function PilaresSection() {
                   Performance
                 </span>
                 <p className="font-montserrat text-zinc-400 text-md leading-relaxed">
-                  Sua verba vai exatamente para onde seu cliente está
+                  Sua verba vai exatamente para onde seu cliente está.
                 </p>
               </div>
               <div className="mt-6 overflow-hidden rounded-xl border border-zinc-800 bg-black">

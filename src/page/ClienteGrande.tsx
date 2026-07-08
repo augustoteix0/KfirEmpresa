@@ -32,7 +32,7 @@ export function ClienteGrandeSection() {
     },
     {
       id: "02",
-      cliente: <>DX2GO</>,
+      cliente: <>D2XGO</>,
       ano: "2026",
       segmento: "Fitness e Academias",
       entrega: "Conteúdo Audiovisual",
@@ -61,7 +61,7 @@ export function ClienteGrandeSection() {
       segmento: "Corretora de Seguros",
       entrega: "Conteúdo e Posicionamento",
       tipoParceria: "Entrega",
-      desafio: "O mercado de seguros carrega uma imagem burocrática e distante na cabeça do consumidor. A Cifarelli precisava de uma presença no Instagram que quebrasse essa barreira sem perder a credibilidade que o setor exige — comunicando confiança e proximidade ao mesmo tempo, para um público que normalmente só pensa em seguro quando já é tarde demais.",
+      desafio: "O mercado de seguros carrega uma imagem burocrática e distante na cabeça do consumidor. A Cifarelli precisava de uma presença no Instagram que quebrasse essa barreira sem perder a credibilidade, uma comunicação com confiança e proximidade ao mesmo tempo, para um público que normalmente só pensa em seguro quando já é tarde demais. Entregamos uma estratégia editorial sob medida, com definição de pilares de conteúdo que equilibram educação sobre seguros, prova social e humanização da marca.",
       entregas: [
         "Estratégia editorial sob medida — definição de pilares de conteúdo que equilibram educação sobre seguros, prova social e humanização da marca, sem soar institucional demais.",
         "Roteiros pensados para o público certo — linguagem acessível que traduz termos técnicos do setor em conteúdo fácil de entender e compartilhar.",
@@ -81,7 +81,7 @@ export function ClienteGrandeSection() {
       segmento: "Projeto Social",
       entrega: "Conteúdo, Estrutura e Redes",
       tipoParceria: "Entrega",
-      desafio: "O Projeto Acreditar já transformava vidas — mais de 2.500 crianças e jovens em situação de vulnerabilidade econômica alcançados por aulas de música, dança, futebol e muito mais. Mas uma causa poderosa precisa de uma voz igualmente poderosa para chegar onde pode chegar. O desafio era traduzir em conteúdo digital a força humana do que acontecia dentro do projeto, sem perder a autenticidade e a emoção que fazem uma causa mobilizar pessoas. Entregamos captação e edição de vídeos que registram histórias reais das crianças, professores e voluntários, transformando momentos do projeto em conteúdo que emociona e engaja.",
+      desafio: "O Projeto Acreditar já transformava vidas — mais de 2.500 crianças e jovens em situação de vulnerabilidade econômica alcançados por aulas de música, dança, futebol e muito mais. Mas uma causa poderosa precisa de uma voz para chegar às pessoas. O desafio era traduzir em conteúdo digital a força humana do que acontecia dentro do projeto. Entregamos captação e edição de vídeos que registram histórias das crianças, professores e voluntários, transformando momentos do projeto em conteúdo que emociona.",
       entregas: [
         "Captação audiovisual em vídeo — visitas recorrentes às unidades da rede para registrar a energia real do ambiente: treinos, estrutura, equipe e momentos que comunicam a experiência de quem treina ali.",
         "Edição com identidade visual consistente — cada vídeo entregue seguindo um padrão de cor, ritmo e narrativa que reforça o reconhecimento da marca a cada novo conteúdo publicado.",
