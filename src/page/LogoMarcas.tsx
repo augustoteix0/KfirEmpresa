@@ -25,7 +25,7 @@ export function LogoCarousel() {
     <section className="w-full py-10">
   <div className="mb-8 text-center">
     <h2 className="font-syne font-bold text-xl md:text-3xl tracking-tight">
-      Somos Experts das Maiores Plataformas do Mercado!
+      Somos <span className=" bg-black text-white p-1 py-0 rounded-md">Experts</span> das Maiores Plataformas do Mercado!
     </h2>
   </div>
 
