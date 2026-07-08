@@ -39,7 +39,7 @@ export function ClienteGrandeSection() {
       tipoParceria: "Entrega",
       desafio: (
   <>
-    A D2xgo (especialista no nicho de academias) precisava de um parceiro que entendesse a energia única de cada unidade da rede <span className="font-bold ">Academia Gaviões</span> e transformasse isso em conteúdo consistente para múltiplos perfis no Instagram. O desafio não era só gravar e editar — era captar a identidade de cada espaço, sustentar um ritmo de publicação constante e garantir que o padrão de qualidade se mantivesse o mesmo, independentemente da unidade ou do dia de gravação.
+    A D2XGO (especialista no nicho de academias) precisava de um parceiro que entendesse a energia única de cada unidade da rede <span className="font-bold ">Academia Gaviões</span> e transformasse isso em conteúdo consistente para múltiplos perfis no Instagram. O desafio não era só gravar e editar — era captar a identidade de cada espaço, sustentar um ritmo de publicação constante e garantir que o padrão de qualidade se mantivesse o mesmo, independentemente da unidade ou do dia de gravação.
   </>
 ),
       entregas: [
