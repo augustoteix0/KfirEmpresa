@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import prc1 from "../assets/prc1.webp"
 
 interface FAQItem {
   question: string;
@@ -121,6 +122,27 @@ export function FaqSection() {
         </div>
 
       </div>
+      <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, delay: 0.4 }}
+          className="flex flex-col items-center gap-2 mt-16 -mb-4 text-center"
+        >
+          <span className="text-zinc-600 text-[20px] font-bold tracking-[0.35em] uppercase font-syne">
+            Parceira
+          </span>
+          <div className="opacity-20 grayscale hover:opacity-40 transition-all duration-300">
+            <a href="https://www.kommo.com/br/" target="_blank">
+              <img 
+              src={prc1}
+              alt="Logo do Parceiro" 
+              className="h-20 md:h-20 w-auto object-contain"
+            />
+            </a>
+            
+          </div>
+        </motion.div>
     </section>
   );
 }

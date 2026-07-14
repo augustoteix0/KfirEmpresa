@@ -38,7 +38,7 @@ export function ServicoSection() {
             className="flex flex-col justify-center gap-4"
           >
             <h3 className="font-syne text-2xl font-bold leading-6">
-              CONTEÚDO E <br /> POSICIONAMENTO DE ELITE
+              CONTEÚDOS ESTRATÉGICOS E <br /> POSICIONAMENTO
             </h3>
             <p>
               Oferecemos desde a estratégia editorial ao roteiro, da captação
@@ -66,7 +66,7 @@ export function ServicoSection() {
             className="flex flex-col justify-center gap-4"
           >
             <h3 className="font-syne text-2xl font-bold leading-6">
-              TRÁFEGO PAGO & <br /> BUSINESS INTELLIGENCE
+              TRÁFEGO PAGO
             </h3>
             <p>
               Trabalhamos com Meta Ads e Google Ads orientados por dados reais —
@@ -131,9 +131,9 @@ export function ServicoSection() {
             className="flex flex-col justify-center gap-4"
           >
             <h3 className="font-syne text-2xl font-bold leading-6 uppercase">
-              Estrutura Operacional e <br /> Inteligência de Processos <br />
+              fluxo de automação <br /> com ia <br />
               <span className="text-sm font-bold">
-                (Automação e Inteligência de Negócio):
+                (Automações Operacionais):
               </span>
             </h3>
             <p>
